@@ -6,7 +6,7 @@
     <description>Novedades de mi portfolio: estudios, deporte y proyectos.</description>
     <language>es-es</language>
     <lastBuildDate>Fri, 13 Nov 2026 12:00:00 +0100</lastBuildDate>
-    <atom:link href="https://coboss07.github.io/proyectoportfolio/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://coboss07.github.io/proyectoportfolio/sindicacion/rss.xml" rel="self" type="application/rss+xml"/>
 
     <!-- Cada novedad es un <item>. Pon la más reciente arriba. -->
     <item>
