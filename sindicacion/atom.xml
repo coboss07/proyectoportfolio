@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <title>Portfolio de Adrián Cobos</title>
   <subtitle>Novedades de mi portfolio: estudios, deporte y proyectos.</subtitle>
-  <link href="https://coboss07.github.io/proyectoportfolio/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://coboss07.github.io/proyectoportfolio/sindicacion/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://coboss07.github.io/proyectoportfolio/" rel="alternate" type="text/html"/>
   <id>https://coboss07.github.io/proyectoportfolio/</id>
   <updated>2026-11-13T12:00:00+01:00</updated>
