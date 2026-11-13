@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+  <title>Portfolio de Adrián Cobos</title>
+  <subtitle>Novedades de mi portfolio: estudios, deporte y proyectos.</subtitle>
+  <link href="https://coboss07.github.io/proyectoportfolio/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://coboss07.github.io/proyectoportfolio/" rel="alternate" type="text/html"/>
+  <id>https://coboss07.github.io/proyectoportfolio/</id>
+  <updated>2026-11-13T12:00:00+01:00</updated>
+  <author><name>Adrián Cobos</name></author>
+
+  <!-- Cada novedad es un <entry>. Cada una necesita un <id> único y una fecha <updated>. -->
+  <entry>
+    <title>Nueva barra lateral y tema turquesa</title>
+    <link href="https://coboss07.github.io/proyectoportfolio/#sobre-web"/>
+    <id>https://coboss07.github.io/proyectoportfolio/#2026-11-13-tema</id>
+    <updated>2026-11-13T12:00:00+01:00</updated>
+    <summary>Añadida una barra lateral con iconos y un interruptor para cambiar entre el tema dorado y el turquesa.</summary>
+  </entry>
+
+  <entry>
+    <title>Sección de estudios actualizada</title>
+    <link href="https://coboss07.github.io/proyectoportfolio/#estudios"/>
+    <id>https://coboss07.github.io/proyectoportfolio/#2026-11-06-estudios</id>
+    <updated>2026-11-06T12:00:00+01:00</updated>
+    <summary>Añadido el Grado Superior de ASIR y los cursos de especialización.</summary>
+  </entry>
+</feed>

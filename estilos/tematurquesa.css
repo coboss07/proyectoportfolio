@@ -1,0 +1,23 @@
+/* =========================================================
+   TEMA TURQUESA
+   ========================================================= */
+
+/* 1) Variables: todo lo que usa var(--oro) cambia solo */
+html[data-tema="turquesa"] {
+  --oro: #3cb4c4;          /* turquesa medio */
+  --oro-claro: #9be3ea;    /* turquesa claro para degradados */
+  --fondo: #0a0e10;
+  --superficie: #10161a;
+  --linea: #1d2a30;
+  --texto: #e6eef0;
+  --apagado: #8b9ca1;
+}
+
+/* 2) Sitios donde el dorado estaba escrito a mano en el CSS principal */
+html[data-tema="turquesa"] .cabecera { background: rgba(10, 14, 16, 0.8); }
+html[data-tema="turquesa"] .portada { background: radial-gradient(ellipse 60% 50% at 50% 40%, rgba(60, 180, 196, 0.12), transparent 70%); }
+html[data-tema="turquesa"] .foto:not(.foto--redonda) { border-color: rgba(60, 180, 196, 0.4); }
+html[data-tema="turquesa"] .estudio:not(.actual):hover,
+html[data-tema="turquesa"] .hobby:hover { border-color: rgba(60, 180, 196, 0.6); }
+html[data-tema="turquesa"] .tecnologias li { border-color: rgba(60, 180, 196, 0.35); }
+html[data-tema="turquesa"] .pie { background: #070b0c; }
