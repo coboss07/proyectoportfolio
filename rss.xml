@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio de Adrián Cobos</title>
+    <link>https://TU-USUARIO.github.io/TU-REPO/</link>
+    <description>Novedades de mi portfolio: estudios, deporte y proyectos.</description>
+    <language>es-es</language>
+    <lastBuildDate>Fri, 13 Nov 2026 12:00:00 +0100</lastBuildDate>
+    <atom:link href="https://TU-USUARIO.github.io/TU-REPO/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <!-- Cada novedad es un <item>. Pon la más reciente arriba. -->
+    <item>
+      <title>Nueva barra lateral y tema turquesa</title>
+      <link>https://TU-USUARIO.github.io/TU-REPO/#sobre-web</link>
+      <guid isPermaLink="false">portfolio-2026-11-13-tema</guid>
+      <pubDate>Fri, 13 Nov 2026 12:00:00 +0100</pubDate>
+      <description>Añadida una barra lateral con iconos y un interruptor para cambiar entre el tema dorado y el turquesa.</description>
+    </item>
+
+    <item>
+      <title>Sección de estudios actualizada</title>
+      <link>https://TU-USUARIO.github.io/TU-REPO/#estudios</link>
+      <guid isPermaLink="false">portfolio-2026-11-06-estudios</guid>
+      <pubDate>Fri, 06 Nov 2026 12:00:00 +0100</pubDate>
+      <description>Añadido el Grado Superior de ASIR y los cursos de especialización.</description>
+    </item>
+  </channel>
+</rss>
