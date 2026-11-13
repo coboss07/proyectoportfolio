@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Adrian Cobos Granadal | Portfolio</title> 
+  <meta name="description" content="Portfolio personal de Tu nombre, estudiante de ASIR.">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos/estilo1.css">
+  <link rel="stylesheet" href="estilos/tematurquesa.css">
+  <link rel="alternate" type="application/rss+xml" title="RSS de Adrián" href="sindicacion/rss.xml">
+  <link rel="alternate" type="application/atom+xml" title="Atom de Adrián" href="sindicacion/atom.xml">
+
+  <!-- Recuerda el tema elegido. Va en el <head> para que no haya parpadeo al recargar.
+       localStorage guarda datos en el navegador del visitante; try/catch evita errores si está bloqueado. -->
+  <script>try { if (localStorage.getItem('tema') === 'turquesa') document.documentElement.dataset.tema = 'turquesa'; } catch (e) {}</script>
+</head>
+
+<body>
+  <header class="cabecera">
+    <nav class="menu" aria-label="Navegación principal">
+      <a href="#inicio" class="logo">Adrián Cobos Granadal</a>
+      <ul class="menu__lista">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#estudios">Estudios</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ==================== NUEVO: BARRA LATERAL ==================== -->
+  <aside class="rail">
+    <a href="#inicio" aria-label="Inicio" data-titulo="Inicio">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
+    </a>
+    <a href="#sobre-mi" aria-label="Sobre mí" data-titulo="Sobre mí">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg>
+    </a>
+    <a href="#estudios" aria-label="Estudios" data-titulo="Estudios">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5c3-1 7-1 10 1 3-2 7-2 10-1v14c-3-1-7-1-10 1-3-2-7-2-10-1z"/><path d="M12 6v14"/></svg>
+    </a>
+    <a href="#hobbies" aria-label="Hobbies" data-titulo="Hobbies">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2-5.5-3-5.5 3 1-6.2L3 9.6l6.2-.9z"/></svg>
+    </a>
+    <a href="#contacto" aria-label="Contacto" data-titulo="Contacto">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+    </a>
+
+    <span class="rail__sep"></span>
+
+    <!-- INTERRUPTOR DE TEMA apagado = dorado. Encendido = turquesa. -->
+    <button class="interruptor" role="switch" aria-checked="false" aria-label="Cambiar color de acento a turquesa" title="Cambiar color">
+      <span class="interruptor__bola"></span>
+    </button>
+  </aside>
+
+  <main> 
+    <section id="inicio" class="portada">
+      <p class="portada__rol">Estudiante de ASIR, administración de sistemas y redes</p>
+      <h1 class="portada__titulo">Hola, soy <span class="dorado">Adrián</span></h1>
+      <p class="portada__texto">Aprendiendo a mejorar cada día. Esta es mi trayectoria.</p>
+      <a href="#sobre-mi" class="boton">Ver mi trayectoria</a>
+    </section>
+
+    <!-- ==================== SOBRE MÍ ==================== -->
+    <section id="sobre-mi" class="seccion">
+      <h2 class="seccion__titulo">Sobre mí</h2>
+
+      <div class="perfil">
+        <div class="foto foto--redonda">
+        
+          <img src="img/IMG_0606.JPG" alt="Retrato de Tu nombre">
+        </div>
+
+        <div>
+          <p class="perfil__texto">Mi nombre es Adrián, soy estudiante de ASIR, deportista de Enduro/DH compitiendo a nivel Nacional y aficionado al mundo del Motor.</p>
+          <dl class="datos">
+            <div><dt>Nombre</dt><dd>Adrián Cobos Granadal</dd></div>
+            <div><dt>Edad</dt><dd>19 años</dd></div>
+            <div><dt>Ciudad</dt><dd>Córdoba</dd></div>
+            <div><dt>Idiomas</dt><dd>Español, inglés (nivel medio)</dd></div>
+            <div><dt>Intereses</dt><dd>Redes, sistemas, seguridad, IA, deporte y mecánica</dd></div>
+            <div><dt>Objetivo</dt><dd>Mejorar como Persona, Estudiante y Deportista</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ESTUDIOS ==================== -->
+         
+    <section id="estudios" class="seccion">
+      <h2 class="seccion__titulo">Estudios</h2>
+
+      <div class="lista">
+        <article class="estudio">
+          <div class="estudio__fecha"><strong>2022</strong><span>a 2024</span></div>
+          <div>
+            <h3>Formación Profesional Básica / ESO<span class="etiqueta">Completado</span></h3>
+            <p class="estudio__centro">Calasancio, Córdoba</p>
+            <p>Realicé este grado básico de Informática (FPB) con espectativa de convalidar la ESO, pero descubrí que la Informática era algo que realmente me apasionaba.</p>
+          </div>
+        </article>
+
+        <article class="estudio">
+          <div class="estudio__fecha"><strong>2024</strong><span>a 2026</span></div>
+          <div>
+            <h3>Grado Medio de Informática <span class="etiqueta">Completado</span></h3>
+            <p class="estudio__centro">IES Medina Azahara, Córdoba</p>
+            <p>AL acabar la FPB, me interesé mucho por el grado de Sistemas Microinformáticos y Redes (SMR), ya que era avanzar la trayectoria y el conocimiento de algo que descubrí que me fascinaba.</p>
+          </div>
+        </article>
+
+        <article class="estudio actual">
+          <div class="estudio__fecha"><strong>2025</strong><span>actualidad</span></div>
+          <div>
+            <h3>Cursos de Especialización <span class="etiqueta etiqueta--activa">En curso</span></h3>
+            <p class="estudio__centro">Cursos Online / Cuenta Propia</p>
+            <p>Aparte de el Ciclo que estoy realizando, en mi teimpo libre me gusta realizar cursos sobre Informática (la mayoría sobre Ciberseguridad), en los que obtengo certificados y diplomas de asistencia. Estos cursos son muy útiles para mejorar mi conocimiento mucho más.</p>
+          </div>
+        </article>
+
+        <article class="estudio actual">
+          <div class="estudio__fecha"><strong>2026</strong><span>actualidad</span></div>
+          <div>
+            <h3>Grado Superior de Informática (ASIR) <span class="etiqueta etiqueta--activa">En curso</span></h3>
+            <p class="estudio__centro">IES Medina Azahara, Córdoba</p>
+            <p>Acabé SMR y tenía claro que lo que me llama la atención eran los Sistemas, entender las Redes y la Ciberseguridad, por eso elegí el Grado Superior de Administración de Sistemas Informáticos y Redes (ASIR).</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==================== HOBBIES ==================== -->
+         
+    <section id="hobbies" class="seccion">
+      <h2 class="seccion__titulo">Hobbies</h2>
+
+      <div class="lista">
+        <article class="hobby">
+          <div class="foto"><img src="img/IMG_2048.jpeg" alt="Descripción"></div>
+          <div>
+            <h3>Snow</h3>
+            <p class="hobby__dato">Desde 2026, nivel Principiante</p>
+            <p>Después de un accidente en 2020 en la nieve, volví al Snow con muchas ganas, es solo un hobbie de invierno pero aprenderlo es un proceso complicado pero divertido.</p>
+          </div>
+        </article>
+
+        <article class="hobby">
+          <div class="foto"><img src="img/cap.png" alt="Descripción"></div>
+          <div>
+            <h3>Enduro</h3>
+            <p class="hobby__dato">Desde 2024, nivel Profesional</p>
+            <p>Ví a gente entrenando y me gustó, se trata de un deporte exigente en el que tienes que subir pedaleando y hacer bajadas cronometradas lo más rápido posible, actualmente compito a nivel Nacional, (Campeón de Andalucía 2025 y SubCampeón de Andalucía 2026).</p>
+          </div>
+        </article>
+
+        <article class="hobby">
+          <div class="foto"><img src="img/4E0A5C5C-B729-48FB-903D-439175B93D23.JPG" alt="Descripción"></div>
+          <div>
+            <h3>Downhill</h3>
+            <p class="hobby__dato">Desde 2026, nivel Amateur</p>
+            <p>Es muy parecido al Enduro, pero la bici está pensada solo para bajar, en estas carreras no pedaleas para arriba, te suben en remonte y solo cronometran una bajada, que suele ser una bajada con saltos y obstacúlos muy peligrosos. Compito a nivel de Andalucía.</p>
+          </div>
+        </article>
+
+        <article class="hobby">
+          <div class="foto"><img src="img/IMG_1444.jpg" alt="Descripción"></div>
+          <div>
+            <h3>Moto</h3>
+            <p class="hobby__dato">Desde 2024, nivel Amateur</p>
+            <p>Aparte de las bicis me apasionan las motos, empecé con una 125cc pero hace poco cambié a una 700cc, mis habilidades estrella son tocar rodilla y hacer caballitos (éticamente).</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==================== SOBRE ESTA WEB ==================== -->
+    <section id="sobre-web" class="seccion">
+      <h2 class="seccion__titulo">Sobre esta web</h2>
+      <div class="nota">
+        <p>Esta web es mi portfolio personal, creada como trabajo de clase para reforzar mis bases de HTML y CSS. Ayudándome de la IA y con mucha creatividad he conseguido que esta WEB consiga un estilo moderno y elegante, justo como me gusta.</p>
+        <ul class="tecnologias">
+          <li>HTML5</li><li>CSS3</li><li>Flexbox</li><li>Grid</li><li>Proyecto de clase</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== PIE DE PÁGINA ==================== -->
+      
+  <footer id="contacto" class="pie">
+    <div class="pie__columnas">
+      <div>
+        <h2 class="pie__titulo">Contacto</h2>
+        <p><a href="mailto:cograd_aliesma@iesmedinaazahara.es">Correo Electrónico</a></p>
+        <p><a href="https://instagram.com/adriaancoboss/ " target="_blank" rel="noopener">Instagram</a></p>
+        <p><a href="https://coboss07.github.io/proyectoportfolio/sindicacion/rss.xml" target="_blank" rel="noopener">RSS</a></p>
+        <p><a href="https://coboss07.github.io/proyectoportfolio/sindicacion/atom.xml" target="_blank" rel="noopener">ATOM</a></p>
+      </div>
+      <div>
+        <h2 class="pie__titulo">Navegación</h2>
+        <p><a href="#inicio">Inicio</a></p>
+        <p><a href="#sobre-mi">Sobre mí</a></p>
+        <p><a href="#estudios">Estudios</a></p>
+        <p><a href="#hobbies">Hobbies</a></p>
+      </div>
+      <div>
+        <h2 class="pie__titulo">Legal</h2>
+        <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank" rel="noopener">Licencia de Cobos Anticopia</a></p>
+        <p>© 2026 Adrián Cobos Granadal</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== JAVASCRIPT ==================== -->
+  <script>
+    const raiz = document.documentElement;
+    const interruptor = document.querySelector('.interruptor');
+
+    function marcarInterruptor() {
+      const turquesa = raiz.dataset.tema === 'turquesa';
+      interruptor.setAttribute('aria-checked', turquesa);   // el CSS usa este valor para mover la bola
+    }
+    marcarInterruptor();
+
+    interruptor.addEventListener('click', () => {
+      const turquesa = raiz.dataset.tema === 'turquesa';
+      if (turquesa) delete raiz.dataset.tema; else raiz.dataset.tema = 'turquesa';
+      marcarInterruptor();
+      try { localStorage.setItem('tema', turquesa ? 'dorado' : 'turquesa'); } catch (e) {}
+    });
+
+    // ICONO DE LA SECCIÓN ACTUAL ---
+    // IntersectionObserver avisa cuando una sección pasa por la franja central de la pantalla
+    // (rootMargin recorta el 35% de arriba y de abajo). Entonces marcamos su icono con la clase "activo".
+    const enlaces = document.querySelectorAll('.rail a');
+    const observador = new IntersectionObserver((entradas) => {
+      entradas.forEach((entrada) => {
+        if (entrada.isIntersecting) {
+          enlaces.forEach((a) => a.classList.toggle('activo', a.getAttribute('href') === '#' + entrada.target.id));
+        }
+      });
+    }, { rootMargin: '-35% 0px -35% 0px' });
+
+    enlaces.forEach((a) => {
+      const seccion = document.querySelector(a.getAttribute('href'));
+      if (seccion) observador.observe(seccion);
+    });
+  </script>
+
+</body>
+</html>
